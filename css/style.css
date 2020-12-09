@@ -1,0 +1,831 @@
+/* CSS 애니메이션 정의 */
+
+
+.background_img {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+}
+
+.bamboo_left {
+	width: 60vw;
+	height: 100vh;
+	position: absolute;
+}
+
+.bamboo_right {
+	width: 80vw;
+	height: 100vh;
+	margin-left: 20vw;
+	position: absolute;
+}
+
+.frame {
+	width: 60vw;
+	height: 86vh;
+	margin-left: 20vw;
+	margin-top: 7vh;
+	position: absolute;
+	opacity: 0%;
+
+	animation-name: frame;
+	animation-delay: 6.3s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+
+}
+
+.brown_frame {
+	width: 57vw;
+	height: 55vh;
+	margin-left: 21.85vw;
+	margin-top: 23vh;
+	position: absolute;
+	opacity: 0%;
+
+	animation-name: frame;
+	animation-delay: 6.3s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+.line1 {
+	width: 17vw;
+	height: 12vh;
+	margin-left: 4.85vw;
+	margin-top: 80vh;
+	position: absolute;
+	opacity: 0%;
+
+	animation-name: lalala;
+	animation-delay: 6.3s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+.line2 {
+	width: 17vw;
+	height: 12vh;
+	margin-left: 80vw;
+	margin-top: 80vh;
+	position: absolute;
+	opacity: 0%;
+
+	animation-name: lalala;
+	animation-delay: 6.3s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+
+
+h1 {
+	font-family: 'Nanum Myeongjo', serif; 
+	position: absolute;
+	color: white;
+	margin-left: 29vw;
+	margin-top: 2vh;
+	font-size: x-large;
+	opacity: 0%;
+
+	animation-name: lalala;
+	animation-delay: 6.3s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+
+h2 {
+	font-family: 'Nanum Myeongjo', serif; 
+	position: absolute;
+	color: white;
+	margin-left: 11.3vw;
+	margin-top: 79.5vh;
+	font-size: xx-large;
+	opacity: 0%;
+
+	animation-name: lalala;
+	animation-delay: 6.3s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+
+h3 {
+	font-family: 'Nanum Myeongjo', serif; 
+	position: absolute;
+	color: white;
+	margin-left: 86vw;
+	margin-top: 79.5vh;
+	font-size: xx-large;
+	opacity: 0%;
+
+	animation-name: lalala;
+	animation-delay: 6.3s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+
+h4 {
+	font-family: 'Noto Serif KR', serif;
+	position: absolute;
+	color: white;
+	margin-left: 5.8vw;
+	margin-top: 88vh;
+	font-size: x-large;
+	opacity: 0%;
+
+	animation-name: lalala;
+	animation-delay: 6.3s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+
+h5 {
+	font-family: 'Noto Serif KR', serif;
+	position: absolute;
+	color: white;
+	margin-left: 80.6vw;
+	margin-top: 88vh;
+	font-size: x-large;
+	opacity: 0%;
+
+	animation-name: lalala;
+	animation-delay: 6.3s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+h6 {
+	font-family: 'Noto Serif KR', serif;
+	position: absolute;
+	color: #3A361E;
+	margin-left: 43vw;
+	margin-top: 36vh;
+	font-size: x-large;
+	opacity: 0%;
+
+	animation-name: h6;
+	animation-delay: 6.3s;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+p {
+	font-family: 'Nanum Myeongjo', serif; 
+	position: absolute;
+	color: #3A361E;
+	margin-left: 41vw;
+	margin-top: 42vh;
+	font-size: 45pt;
+	opacity: 0%;
+
+	animation-name: h6;
+	animation-delay: 6.3s;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+h7 {
+	font-family: 'Nanum Myeongjo', serif; 
+	position: absolute;
+	color: #3A361E;
+	margin-left: 38vw;
+	margin-top: 53vh;
+	font-size: 45pt;
+	opacity: 0%;
+
+	animation-name: h6;
+	animation-delay: 6.3s;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+.tarzan {
+	width: 10vw;
+	height: 21vh;
+	margin-left: -32vw;
+	margin-top: -40vh;
+	position: absolute;
+
+	animation-name: tarzan;
+	animation-delay: 7.3s;
+	animation-duration: 2s;
+
+}
+
+.tarzan_text {
+	width: 25vw;
+	height: 28vh;
+	margin-left: 38vw;
+	margin-top: 37vh;
+	position: absolute;
+	opacity: 0%;
+
+	animation-name: tarzan_text;
+	animation-delay: 8.3s;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	
+}
+
+.disnep_text {
+	width: 13vw;
+	height: 13vh;
+	margin-left: 45vw;
+	margin-top: 32vh;
+	position: absolute;
+	opacity: 0%;
+
+	animation-name: disnep_text;
+	animation-delay: 8.3s;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+
+
+}
+
+.leaf1 {
+	width: 15vw;
+	height: 20vh;
+	margin-left: 22vw;
+	margin-top: 47vh;
+	position: absolute;
+
+	animation-name: leaf1;
+	animation-delay: 6.3s;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.leaf2 {
+	width: 10vw;
+	height: 18vh;
+	margin-left: 1vw;
+	margin-top: 15vh;
+	position: absolute;
+
+	animation-name: leaf1;
+	animation-delay: 6.3s;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.leaf3 {
+	width: 10vw;
+	height: 14vh;
+	margin-left: 90vw;
+	margin-top: 7vh;
+	position: absolute;
+
+	animation-name: leaf1;
+	animation-delay: 8.5s;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.leaf4 {
+	width: 19vw;
+	height: 27vh;
+	margin-left: 62vw;
+	margin-top: 17vh;
+	position: absolute;
+
+	animation-name: leaf1;
+	animation-delay: 8.5s;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.leaf5 {
+	width: 11vw;
+	height: 10vh;
+	margin-left: 83vw;
+	margin-top: 82vh;
+	position: absolute;
+
+	animation-name: leaf1;
+	animation-delay: 8.5s;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.thin_tree {
+	width: 80vw;
+	height: 100vh;
+	margin-left: 6vw;
+	margin-top: 0vh;
+	position: absolute;
+
+	animation-name: thin_tree;
+	animation-duration: 7s;
+	animation-fill-mode: forwards;
+}
+
+.middle_tree_left {
+	width: 99vw;
+	height: 100vh;
+	margin-left: -26vw;
+	margin-top: 0vh;
+	position: absolute;
+
+	animation-name: middle_tree_left;
+	animation-duration: 6.5s;
+	animation-fill-mode: forwards;
+}
+
+.middle_tree_right {
+	width: 99vw;
+	height: 100vh;
+	margin-left: 47vw;
+	margin-top: 0vh;
+	position: absolute;
+
+	animation-name: middle_tree_right;
+	animation-duration: 6.5s;
+	animation-fill-mode: forwards;
+}
+
+.front_tree_left {
+	width: 49.5vw;
+	height: 100vh;
+	margin-top: 0vh;
+	position: absolute;
+
+	animation-name: front_tree_left;
+	animation-duration: 6s;
+	animation-fill-mode: forwards;
+}
+
+.front_tree_right {
+	width: 49.5vw;
+	height: 100vh;
+	margin-top: 0vh;
+	position: absolute;
+
+	animation-name: front_tree_right;
+	animation-duration: 6s;
+	animation-fill-mode: forwards;
+}
+
+.bird {
+	width: 12vw;
+	height: 26vh;
+	margin-left: 40vw;
+	margin-top: 34vh;
+	position: absolute;
+
+	animation-name: bird;
+	animation-delay: 6s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+.black_panther {
+	width: 42vw;
+	height: 40vh;
+	margin-left: -4vw;
+	margin-top: 63vh;
+	position: absolute;
+
+	animation-name: bird;
+	animation-delay: 6s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+.monkey1 {
+	width: 36vw;
+	height: 64vh;
+	margin-left: 67vw;
+	margin-top: 13vh;
+	position: absolute;
+
+	animation-name: bird;
+	animation-delay: 6s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+.monkey3 {
+	width: 19vw;
+	height: 45vh;
+	margin-left: 12vw;
+	margin-top: -93vh;
+	position: absolute;
+
+	animation-name: bird;
+	animation-delay: 6s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+.snake {
+	width: 38vw;
+	height: 49vh;
+	margin-left: 50vw;
+	margin-top: 58vh;
+	position: absolute;
+
+	animation-name: bird;
+	animation-delay: 6s;
+	animation-duration: 0.1s;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes front_tree_left {
+	0% {
+		margin-left: -2vw;
+
+	}
+
+	20% {
+		margin-left: -19vw;
+
+	}
+
+	40% {
+		margin-left:-2vw;
+
+	}
+
+	60% {
+		margin-left:-19vw;
+
+	}
+
+	80% {
+		margin-left: -2vw;
+
+	}
+
+	100% {
+		margin-left: -52vw;
+
+	}
+}
+
+@-webkit-keyframes front_tree_right {
+	0% {
+		margin-left: 72vw;
+
+	}
+
+	20% {
+		margin-left: 52vw;
+
+	}
+
+	40% {
+		margin-left:72vw;
+
+	}
+
+	60% {
+		margin-left:52vw;
+
+	}
+
+	80% {
+		margin-left: 72vw;
+
+	}
+
+	100% {
+		margin-left: 101vw;
+
+	}
+}
+
+@-webkit-keyframes middle_tree_right {
+	0% {
+		margin-left: 50vw;
+
+	}
+
+	20% {
+		margin-left: 33vw;
+	}
+
+	40% {
+		margin-left: 50vw;
+
+	}
+
+	60% {
+		margin-left: 33vw;
+
+	}
+
+	80% {
+		margin-left: 50vw;
+
+	}
+
+	100% {
+		margin-left: 100vw;
+
+	}
+}
+
+@-webkit-keyframes middle_tree_left {
+	0% {
+		margin-left: -35vw;
+
+	}
+
+	20% {
+		margin-left: -43vw;
+
+	}
+
+	40% {
+		margin-left: -35vw;
+
+	}
+
+	60% {
+		margin-left: -43vw;
+
+	}
+
+	80% {
+		margin-left: -35vw;
+
+	}
+
+	100% {
+		margin-left: -101vw;
+
+	}
+}
+
+
+@-webkit-keyframes thin_tree {
+	0% {
+		margin-left: 6vw;
+
+	}
+
+	20% {
+		margin-left: 1vw;
+
+	}
+
+	40% {
+		margin-left: 6vw;
+
+	}
+
+	60% {
+		margin-left: 1vw;
+
+	}
+
+	80% {
+		margin-left: 6vw;
+
+	}
+
+	100% {
+		margin-left: -82vw;
+
+	}
+}
+
+@-webkit-keyframes bird {
+	from {
+		opacity: 100%;
+	}
+
+	to {
+		opacity: 0%;
+
+	}
+}
+
+@-webkit-keyframes frame {
+	from {
+		opacity: 0%;
+	}
+
+	to {
+		opacity: 60%;
+
+	}
+}
+
+@-webkit-keyframes lalala {
+	from {
+		opacity: 0%;
+	}
+
+	to {
+		opacity: 100%;
+
+	}
+}
+
+@-webkit-keyframes tarzan {
+	0% {
+		width: 10vw;
+		height: 23.25vh;
+		margin-left: -32vw;
+		margin-top: -40vh;
+	}
+
+	5% {
+		width: 12.5vw;
+		height: 25.25vh;
+		margin-left: -22vw;
+		margin-top: -30vh;
+	}
+
+	10% {
+		width: 15vw;
+		height: 28.25vh;
+		margin-left: -12vw;
+		margin-top: -20vh;
+	}
+
+	15% {
+		width: 17.5vw;
+		height: 35vh;
+		margin-left: -3vw;
+		margin-top: -16vh;
+	}
+
+	20% {
+		width: 20vw;
+		height: 46.5vh;
+		margin-left: 9vw;
+		margin-top: -12vh;
+	}
+
+	25% {
+		width: 25vw;
+		height: 51vh;
+		margin-left: 11vw;
+		margin-top: -9vh;
+	}
+
+	30% {
+		width: 30vw;
+		height: 56.5vh;
+		margin-left: 14vw;
+		margin-top: -6vh;
+	}
+
+	35% {
+		width: 35vw;
+		height: 70vh;
+		margin-left: 16.5vw;
+		margin-top: -3vh;
+	}
+
+	40% {
+		width: 40vw;
+		height: 83vh;
+		margin-left: 20vw;
+		margin-top: -1vh;
+	}
+
+	45% {
+		width: 40vw;
+		height: 83vh;
+		margin-left: 28vw;
+		margin-top: -1vh;
+	}
+
+	50% {
+		width: 40vw;
+		height: 83vh;
+		margin-left: 36vw;
+		margin-top: -1vh;
+	}
+
+	55% {
+		width: 40vw;
+		height: 83vh;
+		margin-left: 38vw;
+		margin-top: -1vh;
+	}
+
+	60% {
+		width: 40vw;
+		height: 83vh;
+		margin-left: 41vw;
+		margin-top: -3vh;
+	}
+
+	65% {
+		width: 35vw;
+		height: 71vh;
+		margin-left: 48vw;
+		margin-top: -5vh;
+	}
+
+	70% {
+		width: 30vw;
+		height: 56.5vh;
+		margin-left: 58vw;
+		margin-top: -8vh;
+	}
+
+	75% {
+		width: 25vw;
+		height: 49vh;
+		margin-left: 64vw;
+		margin-top: -11vh;
+	}
+
+	80% {
+		width: 20vw;
+		height: 46.5vh;
+		margin-left: 73vw;
+		margin-top: -15vh;
+	}
+
+	85% {
+		width: 17.5vw;
+		height: 35vh;
+		margin-left: 81vw;
+		margin-top: -26vh;
+	}
+
+	90% {
+		width: 15vw;
+		height: 28.25vh;
+		margin-left: 96vw;
+		margin-top: -31vh;
+	}
+
+	95% {
+		width: 12.5vw;
+		height: 25.25vh;
+		margin-left: 150vw;
+		margin-top: -39vh;
+	}
+
+	100% {
+		width: 10vw;
+		height: 23.25vh;
+		margin-left: 180vw;
+		margin-top: -46vh;
+	}
+}
+
+@-webkit-keyframes tarzan_text {
+	0% {
+		opacity: 0%;
+	}
+
+	100% {
+		opacity: 100%;
+	}
+
+}
+
+
+@-webkit-keyframes disnep_text {
+	0% {
+		opacity: 0%;
+	}
+
+	100% {
+		opacity: 100%;
+	}
+}
+
+@-webkit-keyframes h6 {
+	0% {
+		opacity: 100%;
+	}
+
+	90% {
+		opacity: 100%;
+	}
+
+	100% {
+		opacity: 0%;
+	}
+}
+
+@-webkit-keyframes leaf1 {
+	0% {
+		transform: skewx(10deg) translatex(10px);
+	}
+
+	100% {
+		transform: skewx(-10deg) translatex(-10px);
+	}
+}
+
+
